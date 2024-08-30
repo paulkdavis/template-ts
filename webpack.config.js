@@ -29,7 +29,9 @@ module.exports = {
     title: 'GE Empty Template',
     template: path.join(process.cwd(), 'src/index.html'),
     filename: 'index.html',
-  })],
+  })
+  ],
+  
   devServer: {
     host: '0.0.0.0',
     port: '1234',
